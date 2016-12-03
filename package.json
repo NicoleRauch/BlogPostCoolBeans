@@ -1,0 +1,26 @@
+{
+  "name": "BlogPostCoolBeans",
+  "description": "Code accompanying my blog post",
+  "private": true,
+  "author": "Nicole Rauch",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "engines": {
+    "node": ">=0.10"
+  },
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-mocha-istanbul": "2.2.0",
+    "istanbul": "0.4.5",
+    "mocha": "3.1.2",
+    "must": "0.12.0",
+    "sinon": "1.17.6"
+  },
+  "scripts": {
+    "test": "grunt tests"
+  }
+}
